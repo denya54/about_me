@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables";
+.title {
+  margin-bottom: 10px;
+  position: relative;
+  & h2 {
+    font-family: 'Poppins', sans-serif;
+    color: $textTitleColor;
+    font-weight: 600;
+    font-style: normal;
+
+    font-size: 21px;
+    z-index: 1;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255,255,255,.09);
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+
+  &::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 33%;
+    background-color: $lineStartColor;
+    height: 2px;
+    bottom: -10px;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.header {
+  position: sticky;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: $secondBackgroundColor;
+
+  border-bottom: 2px solid $secondColor;
+
+  @media screen and (max-width: 400px) {
+    background-color: rgba(34, 38, 42, .5);
+    border-bottom: none;
+  }
+  .headerContainer {
+    @include container();
+    justify-content: flex-end;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+}

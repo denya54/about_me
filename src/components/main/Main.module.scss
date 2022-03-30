@@ -1,0 +1,66 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $mainBackgroundColor;
+
+  @media screen and (max-width: 999px) {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .mainContainer {
+    @include container();
+    flex-wrap: wrap;
+    width: 60%;
+
+    @media screen and (max-width: 1334px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 999px ) {
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .text {
+      width: 500px;
+
+      h2 {
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -0.25px;
+        line-height: 100%;
+        font-size: 46px;
+        color: #f0f0f0;
+      }
+
+      .highlight {
+        color: $secondColor;
+      }
+
+      .secondTitle {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.1px;
+        line-height: 1.5;
+        color: #f0f0f0;
+      }
+    }
+
+    .photo {
+      width: 400px;
+      height: 500px;
+      background-image: url('../../assets/images/mainPhoto.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      @media screen and (max-width: 400px ) {
+        width: 200px;
+        height: 300px;
+      }
+    }
+  }
+}
+
