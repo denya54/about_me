@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/about_me/static/css/main.af31c748.chunk.css",
+    "main.js": "/about_me/static/js/main.ba99a054.chunk.js",
+    "main.js.map": "/about_me/static/js/main.ba99a054.chunk.js.map",
+    "runtime-main.js": "/about_me/static/js/runtime-main.de6b57e9.js",
+    "runtime-main.js.map": "/about_me/static/js/runtime-main.de6b57e9.js.map",
+    "static/js/2.aa2ae100.chunk.js": "/about_me/static/js/2.aa2ae100.chunk.js",
+    "static/js/2.aa2ae100.chunk.js.map": "/about_me/static/js/2.aa2ae100.chunk.js.map",
+    "static/js/3.57068a6f.chunk.js": "/about_me/static/js/3.57068a6f.chunk.js",
+    "static/js/3.57068a6f.chunk.js.map": "/about_me/static/js/3.57068a6f.chunk.js.map",
+    "index.html": "/about_me/index.html",
+    "static/css/main.af31c748.chunk.css.map": "/about_me/static/css/main.af31c748.chunk.css.map",
+    "static/js/2.aa2ae100.chunk.js.LICENSE.txt": "/about_me/static/js/2.aa2ae100.chunk.js.LICENSE.txt",
+    "static/media/imageForCard.eefc70a4.jpg": "/about_me/static/media/imageForCard.eefc70a4.jpg",
+    "static/media/Main.module.scss": "/about_me/static/media/mainPhoto.ffaa6fac.jpg",
+    "static/media/social.d6f0e2d5.png": "/about_me/static/media/social.d6f0e2d5.png",
+    "static/media/todo.9209a191.jpg": "/about_me/static/media/todo.9209a191.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de6b57e9.js",
+    "static/js/2.aa2ae100.chunk.js",
+    "static/css/main.af31c748.chunk.css",
+    "static/js/main.ba99a054.chunk.js"
+  ]
+}
