@@ -5,19 +5,13 @@
   min-height: 100vh;
   background-color: $mainBackgroundColor;
 
-  @media screen and (max-width: 999px) {
-    height: 100%;
-    padding: 50px 0;
-  }
 
   .mainContainer {
     @include container();
     flex-wrap: wrap;
     width: 60%;
 
-    @media screen and (max-width: 1334px) {
-      width: 80%;
-    }
+
     @media screen and (max-width: 999px ) {
       justify-content: center;
       align-items: flex-start;
@@ -49,9 +43,10 @@
     }
 
     .photo {
+      margin-top: 50px;
       width: 400px;
       height: 500px;
-      background-image: url('../../assets/images/mainPhoto.jpg');
+      background-image: url('../../assets/images/photo_2022-04-01_16-04-32.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

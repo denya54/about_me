@@ -14,6 +14,15 @@ const mySkills = [
     {id: 3, name: 'Testing', description: 'Unit Tests, Storybook', ico: faUikit}
 ]
 
+const mySkills1 = [
+    {id: 1, name: 'React', description: '', ico: faReact},
+    {id: 2, name: 'JavaScript', description: '', ico: faJs},
+    {id: 3, name: 'Testing', description: '', ico: faUikit},
+    {id: 4, name: 'HTML', description: '', ico: faUikit},
+    {id: 5, name: 'TypeScript', description: '', ico: faUikit},
+    {id: 6, name: 'Redux', description: '', ico: faUikit},
+
+]
 
 export const Skills = () => {
 
