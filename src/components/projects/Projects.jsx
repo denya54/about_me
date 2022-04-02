@@ -21,9 +21,9 @@ export const Projects = () => {
         },
         {
             id: 102,
-            name: 'Todolist',
+            name: 'To Do List',
             description: 'A list of things you need to do or want to do. Here you can manage your tasks!',
-            link: 'https://github.com/denya54/taskslist',
+            link: 'https://denya54.github.io/taskslist',
             ico: {
                 backgroundImage: `url(${TodoIMG})`,
             }
